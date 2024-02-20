@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write Your Own Story</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>#speakButton {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #ff5e3a;
+        color: #fff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    #speakButton:hover {
+        background-color: #ff7e5f;
+    }
+    
+    #speakButton:focus {
+        outline: none;
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Travel Stories</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="stories.html">Stories</a></li>
+                <li><a href="interviews.html">Interviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="write_your_own.html">Write Your Own</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="write-your-own">
+        <div class="container">
+            <p><b>Write Your Own Story</b>
+          
+            Share your travel experiences with the world!</p>
+            <form action="#" method="POST">
+                <input type="text" name="title" placeholder="Story Title" required>
+                <textarea name="content" placeholder="Write your story here..." required></textarea>
+                <button type="submit">Submit Story</button>
+            </form>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+       
+        <div class="container" style="color: rgb(255, 102, 0);">
+    
+       
+            <p>Welcome to my website! My name is Athrva Kulkarni. I'm passionate about this website . I created this website to using Generative AI's like CHATGPT , GOOGLE BARD/GEMINI , DEEPAI , Leonardo . THIS WAS VERY GOOD EXPERIENCE FOR ME THANK YOU</p>
+            <button id="speakButton">Read Aloud</button>
+            
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Travel Stories. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script> <!-- Make sure to include this line -->
+
+</body>
+</html>
